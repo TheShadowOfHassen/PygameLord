@@ -183,9 +183,11 @@ class alien:
         self.kind = 'A'
         self.Pass = 0
         self.downspeed = 16
+        
     def shoot(self,game):
         Lazer_Sound.play()
         game.objects.append(lazer(self.x,self.y,Alien_Lazer,32, 'AL'))
+    
     def run(self,game):
         for w in game.objects:
             if w.x == self.x and w.y == self.y and w.kind == 'PL':
@@ -202,7 +204,6 @@ class alien:
             if self.Pass == self.downspeed:
                 self.y += 32
                 self.Pass = 0
-                print(self.Pass)
         if self.frame == 0:
             self.frame = 1
         else:
@@ -214,6 +215,7 @@ class alien:
             time.sleep(3)
             PygameLord.exit()
             sys.exit()
+            
         self.rect = (self.x,self.y,32,32)
         Screen.blit(self.sheet.get_tile((self.frame,0)),self.rect)
 

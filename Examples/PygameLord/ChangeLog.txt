@@ -1,3 +1,0 @@
-PygameLord (Library Of Reusible Doohickeys)
-
-21.12 Main release

@@ -1,8 +1,10 @@
-# PygameLord
+
  PygameLibraryOdReusibleDoohickeys
  
+ 8/16/2022 Edition
+ 
  PygameLord (Library Of Reusable Doohickeys)
-Copyright 2022 Nathanael K. Stottlemyer
+Copyright 2022 Nathanael K. Stottlemyer (ShadowOfHassen)
 
 This is a library of reusable code fragments, put into a module form. 
 See the scrapbook folder for non module reusable code.
@@ -16,3 +18,7 @@ Files:
 PygameLord: The Module
 Scrapbook: Other things that are useful but not able to be in a module
 Examples: Examples
+
+Credits:
+
+The Song in the alien game is Assistance by Paul Sonus

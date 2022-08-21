@@ -84,7 +84,6 @@ class game:
                 if i.x >= self.x2:
                     self.direction = -32
                 elif i.x <= self.x1:
-                    print('d')
                     self.direction = 32
         if d == []:
             generate()

@@ -1,7 +1,7 @@
 
  PygameLibraryOdReusibleDoohickeys
  
- 8/16/2022 Edition
+22.8.22 Edition: (8/22/2022)
  
  PygameLord (Library Of Reusable Doohickeys)
 Copyright 2022 Nathanael K. Stottlemyer (ShadowOfHassen)

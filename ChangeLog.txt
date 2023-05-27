@@ -1,7 +1,0 @@
-PygameLord (Library Of Reusible Doohickeys)
-
-We will use a backwards Year.Month.Day Because you really can't have other versions for something like thist.
-
-22.8.22:
-	First named release.
-	

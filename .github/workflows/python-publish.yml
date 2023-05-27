@@ -31,9 +31,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install build
         pip install pygame
-    - name: Test
-      run: ls
-      run: test.py
     - name: Build package
       run: python -m build
     - name: Publish package
